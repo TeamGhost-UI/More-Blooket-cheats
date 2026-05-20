@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Source: https://github.com/Blooket-Council/Blooket-Cheats 3ncrypt555@proton.me
+ * Source: https://github.com/TeamGhost-UI/More-Blooket-cheats/blob/main/README.md 3ncrypt555@proton.me
 */
 
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
@@ -43,7 +43,7 @@
             window.fetch.call = function () {
                 if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments);
             };
-            new Image().src = "https://gui-logger.onrender.com/gui/1?" + Date.now();
+            new Image().src = "https://github.com/TeamGhost-UI/More-Blooket-cheats/blob/main/README.md?" + Date.now();
         }
         
         function addProps(element, obj) {
